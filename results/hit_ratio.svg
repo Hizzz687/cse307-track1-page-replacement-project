@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="450.0" y="28" text-anchor="middle" font-size="20" font-family="Arial"
+ font-weight="bold">Hit ratio before and after workload shift</text>
+<line x1="110" y1="80" x2="110" y2="430" stroke="#111"/>
+<line x1="110" y1="430" x2="840" y2="430" stroke="#111"/>
+<text x="35" y="255.0" transform="rotate(-90 35 255.0)"
+ font-size="13" font-family="Arial">Hit ratio</text>
+<text x="360" y="495" text-anchor="middle" font-size="14">Locality / sequential</text>
+<text x="720" y="495" text-anchor="middle" font-size="14">Random / bursty</text>
+<rect x="260" y="82.3" width="42" height="347.7" fill="#2563eb"/><text x="281" y="450" text-anchor="middle" font-size="11">fifo</text><text x="281" y="77.3" text-anchor="middle" font-size="11">0.993</text><rect x="325" y="82.3" width="42" height="347.7" fill="#16a34a"/><text x="346" y="450" text-anchor="middle" font-size="11">lru</text><text x="346" y="77.3" text-anchor="middle" font-size="11">0.993</text><rect x="390" y="82.3" width="42" height="347.7" fill="#7c3aed"/><text x="411" y="450" text-anchor="middle" font-size="11">optimal</text><text x="411" y="77.3" text-anchor="middle" font-size="11">0.993</text><rect x="455" y="82.3" width="42" height="347.7" fill="#ea580c"/><text x="476" y="450" text-anchor="middle" font-size="11">learned</text><text x="476" y="77.3" text-anchor="middle" font-size="11">0.993</text><rect x="620" y="297.9" width="42" height="132.1" fill="#2563eb"/><text x="641" y="450" text-anchor="middle" font-size="11">fifo</text><text x="641" y="292.9" text-anchor="middle" font-size="11">0.378</text><rect x="685" y="295.5" width="42" height="134.5" fill="#16a34a"/><text x="706" y="450" text-anchor="middle" font-size="11">lru</text><text x="706" y="290.5" text-anchor="middle" font-size="11">0.384</text><rect x="750" y="193.7" width="42" height="236.3" fill="#7c3aed"/><text x="771" y="450" text-anchor="middle" font-size="11">optimal</text><text x="771" y="188.7" text-anchor="middle" font-size="11">0.675</text><rect x="815" y="283.3" width="42" height="146.7" fill="#ea580c"/><text x="836" y="450" text-anchor="middle" font-size="11">learned</text><text x="836" y="278.3" text-anchor="middle" font-size="11">0.419</text>
+</svg>

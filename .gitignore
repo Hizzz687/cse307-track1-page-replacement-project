@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.vscode/
+
+# Keep the instructor brief local; submit the report and repository materials.
+CSE307_TermPaper_Brief(Part-B).pdf

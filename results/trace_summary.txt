@@ -1,0 +1,5 @@
+seed=307
+requests=2400
+shift_index=1200
+cache_capacity=8
+unique_pages=32

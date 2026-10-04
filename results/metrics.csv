@@ -1,0 +1,9 @@
+policy,segment,requests,hits,faults,hit_ratio
+fifo,before_shift,1200,1192,8,0.9933333333333333
+fifo,after_shift,1200,453,747,0.3775
+lru,before_shift,1200,1192,8,0.9933333333333333
+lru,after_shift,1200,461,739,0.38416666666666666
+optimal,before_shift,1200,1192,8,0.9933333333333333
+optimal,after_shift,1200,810,390,0.675
+learned,before_shift,1200,1192,8,0.9933333333333333
+learned,after_shift,1200,503,697,0.4191666666666667
